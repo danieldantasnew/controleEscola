@@ -3,7 +3,7 @@ const rotas = express.Router()
 
 
 rotas.get("/", (req,res)=>{
-    return res.redirect("/teachers")
+    res.redirect("/teachers")
 })
 
 rotas.get("/teachers", (req,res)=>{
