@@ -1,0 +1,47 @@
+{% extends "layout.njk" %}
+
+{% block conteudo %}
+
+<form class = "card" method = "POST" action = "/teachers" >
+    <section class = "imagem" style = "background: url(https://source.unsplash.com/collection/71561100/700x700)"></section>
+    
+    <section class = "detalhes">
+        <h1>NOVO PROFESSOR</h1>
+
+        <div class = "item">
+            <div>Novo avatar</div>
+            <div> <input type="url" name="novo_avatar" placeholder = "https://">
+        </div>
+
+        <div class = "item">
+            <div>Nome completo</div>
+            <div><input type="text" name="nome_professor" placeholder = "Digite o seu nome completo"></div>
+        </div>        
+
+        <div class = "item">
+            <div>Data de nascimento</div>
+            <div><input type="date" name="nascimento"></div>
+        </div>
+
+        <div class = "item">
+            <div>Grau de escolaridade</div>
+            <select name="selecionar">
+                <option grau = "Ensino Medio completo">Ensino Médio Completo</option>
+                <option grau = "Ensino Superior completo">Ensino Superior Completo</option>
+                <option grau = "Mestrado">Mestrado</option>
+                <option grau = "Doutorado">Doutorado</option>
+            </select>
+        </div>
+
+        <div class = "item">
+            <div>Tipo de Aula</div>
+            <span><input type="radio" name="Presencial">Presencial</span>
+            <span><input type="radio" name="À Distância">À Distância</span>
+        </div>
+
+        <button>Enviar</button>
+    </section>
+
+</form>
+
+{% endblock %}
