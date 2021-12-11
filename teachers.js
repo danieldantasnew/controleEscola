@@ -9,7 +9,7 @@ exports.post = (req,res)=>{
             return res.send("Por favor, preencha todos os campos")
     }
 
-    fs.writeFile("dados.js", JSON.stringify(req.body), (err)=>{
+    fs.writeFile("dados.json", JSON.stringify(req.body), (err)=>{
         if(err) return res.send("Erro na escrita do arquivo")
     })
     
