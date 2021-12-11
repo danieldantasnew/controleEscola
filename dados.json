@@ -1,1 +1,31 @@
-{"novo_avatar":"https://google.com","nome_professor":"Daniel Dantas","nascimento":"1998-05-29","selecionar":"Ensino Médio Completo","aula":"P"}
+{
+  "teachers": [
+    {
+      "id": 1,
+      "novo_avatar": "https://google.com",
+      "nome_professor": "Daniel Dantas",
+      "nascimento": 896400000000,
+      "selecionar": "Ensino Médio Completo",
+      "aula": "P",
+      "criado_em": 1639199961955
+    },
+    {
+      "id": 2,
+      "novo_avatar": "https://google.com",
+      "nome_professor": "Luana Lucena",
+      "nascimento": 924652800000,
+      "selecionar": "Doutorado",
+      "aula": "D",
+      "criado_em": 1639199987092
+    },
+    {
+      "id": 3,
+      "novo_avatar": "https://google.com",
+      "nome_professor": "Aleff Dantas",
+      "nascimento": 752976000000,
+      "selecionar": "Ensino Superior Completo",
+      "aula": "P",
+      "criado_em": 1639200121834
+    }
+  ]
+}
